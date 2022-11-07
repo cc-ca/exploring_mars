@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6117161392597316852}
   - component: {fileID: 856408942563717283}
   - component: {fileID: 3101844428315212548}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: plateforme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,6 +100,9 @@ MonoBehaviour:
   Plateforme: {fileID: 8710720521706742579}
   Distance: 1
   Speed: 1
+  X: 1
+  Y: 1
+  Z: 1
 --- !u!65 &3101844428315212548
 BoxCollider:
   m_ObjectHideFlags: 0
