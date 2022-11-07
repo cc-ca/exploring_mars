@@ -29,7 +29,7 @@ public class playerControler : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "piece")
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Piece"))
         {   
             increment+= 1;
             Debug.Log(increment);
